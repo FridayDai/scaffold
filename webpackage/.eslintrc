@@ -1,0 +1,34 @@
+{
+    "extends": "./node_modules/eslint-config-airbnb/.eslintrc",
+    "rules": {
+        "no-undef": 2, // disallow use of undeclared variables unless mentioned in a /*global */ block
+        "comma-dangle": [2, "never"],
+        "no-else-return": 0,
+        "space-after-keywords": 0,
+        "space-before-blocks": 0,
+        "no-trailing-spaces": 0,
+        "keyword-spacing": 0,
+        "indent": 0,
+        "max-len": ["error", 120],
+        "no-script-url": 0,
+        "radix": ["error", "as-needed"],
+        "quote-props": ["error", "always"],
+        "space-before-function-paren": ["warn", "never"],
+        "no-underscore-dangle": ["error", {"allowAfterThis": true}],
+        "object-curly-spacing": ["error", "never"],
+        "no-useless-constructor": 0,
+        "object-shorthand": ["error", "always", {"avoidQuotes": true}],
+        "arrow-body-style": ["error", "as-needed"],
+        "import/no-unresolved": 0,
+        "no-param-reassign": ["error", { "props": false }],
+        "react/jsx-indent": [2, 4],
+        "no-console": ["warn", {allow: ["warn", "error"]}],
+        "jsx-quotes": ["error", "prefer-single"],
+        "react/jsx-first-prop-new-line": ["error", "multiline"],
+        "react/jsx-indent-props": [2, 4],
+        "react/jsx-no-bind": 0,
+        "react/prop-types": 0,
+        "react/no-multi-comp": 0,
+        "react/jsx-boolean-value": [2, "always"]
+    }
+}
